@@ -204,9 +204,130 @@
     "title": "Excepteur sint occaecat cupidatat",
     "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "publishedAt": "2024-05-22T17:30:00",
+    "category": "regulatory",
+    "type": "Press release",
+    "imageUrl": "",
+    "url": "#"
+  },
+   {
+    "id": 22,
+    "title": "Velit esse cillum dolore",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "publishedAt": "2024-07-19T08:50:00",
+    "category": "regulatory",
+    "type": "Financial report",
+    "imageUrl": "",
+    "url": "#"
+  },
+  {
+    "id": 23,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2024-05-22T17:30:00",
+    "category": "regulatory",
+    "type": "Press release",
+    "imageUrl": "",
+    "url": "#"
+  },
+   {
+    "id": 24,
+    "title": "In reprehenderit in voluptate",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2024-10-03T15:25:00",
+    "category": "regulatory",
+    "type": "Presentation",
+    "imageUrl": "",
+    "url": "#"
+  },
+  {
+    "id": 25,
+    "title": "Velit esse cillum dolore",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "publishedAt": "2024-07-19T08:50:00",
+    "category": "regulatory",
+    "type": "Financial report",
+    "imageUrl": "",
+    "url": "#"
+  },
+  {
+    "id": 26,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2024-05-22T17:30:00",
+    "category": "regulatory",
+    "type": "Press release",
+    "imageUrl": "",
+    "url": "#"
+  },
+   {
+    "id": 25,
+    "title": "Velit esse cillum dolore",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "publishedAt": "2024-07-19T08:50:00",
+    "category": "regulatory",
+    "type": "Financial report",
+    "imageUrl": "",
+    "url": "#"
+  },
+  {
+    "id": 27,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2024-05-22T17:30:00",
+    "category": "regulatory",
+    "type": "Press release",
+    "imageUrl": "",
+    "url": "#"
+  },
+   {
+    "id": 28,
+    "title": "Velit esse cillum dolore",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "publishedAt": "2024-07-19T08:50:00",
+    "category": "regulatory",
+    "type": "Financial report",
+    "imageUrl": "",
+    "url": "#"
+  },
+  {
+    "id": 29,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2024-05-22T17:30:00",
+    "category": "Presentation",
+    "type": "Press release",
+    "imageUrl": "",
+    "url": "#"
+  },
+    {
+    "id": 30,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2026-05-22T17:30:00",
+    "category": "regulatory",
+    "type": "Press release",
+    "imageUrl": "/source/office-work.jpg",
+    "url": "#"
+  },
+   {
+    "id": 31,
+    "title": "Velit esse cillum dolore",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "publishedAt": "2024-07-19T08:50:00",
     "category": "non_regulatory",
+    "type": "Financial report",
+    "imageUrl": "/source/office-2.jpg",
+    "url": "#"
+  },
+  {
+    "id": 32,
+    "title": "Excepteur sint occaecat cupidatat",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "publishedAt": "2026-05-22T17:30:00",
+    "category": "Presentation",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   }
 ]
+

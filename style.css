@@ -62,7 +62,11 @@ h2 {
 }
 
 .chips_controls .chip:hover {
-  background-color: #E3EAFE;
+  background-color: #e3eafe;
+}
+
+.chips_controls .chip.active {
+  background-color: #e3eafe;
 }
 
 .filter_selects {
