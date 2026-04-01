@@ -7,6 +7,7 @@ const loadMoreBtn = document.getElementById('load_more_btn');
 const chipsControlsContainer = document.getElementById('chips_controls')
 const chipsControls = document.querySelectorAll('.chip');
 
+
 //object for state of articles
 const stateArticles = { 
     allArticles: [],
@@ -15,6 +16,7 @@ const stateArticles = {
     selectedYear: 'all',
     visibleCount: 9
 };
+
 
 //fetch articles from source
 async function fetchArticles() {
@@ -36,6 +38,7 @@ async function fetchArticles() {
         throw error;
     }
 }
+
 
 //creating singular card for an article 
 function articleSingularCard (article) {
@@ -79,17 +82,6 @@ function articleSingularCard (article) {
         return cardArticle;
 }
 
-//Init function - starting
-async function initRendering() {
-    const articles = await fetchArticles();
-    stateArticles.allArticles = articles;
-
-    filterByTypeOptions();
-    filterByYearOptions();
-
-    renderFilteredVisibleArticles();
-}
-initRendering();
 
 //rendering articles in UI
 function renderArticles(articles) {
@@ -101,8 +93,49 @@ function renderArticles(articles) {
     });
 }
 
+// return articles if they match to chosen filters
+function filterArticles() {
+    return stateArticles.allArticles.filter((item) => {
 
-//Type Filter in select
+        const matchCategory =  stateArticles.selectedCategoryChip === 'all' || item.category === stateArticles.selectedCategoryChip;
+
+        const matchType = stateArticles.selectedType === 'all' || item.type === stateArticles.selectedType;
+
+        const matchYear = stateArticles.selectedYear === 'all' || new Date(item.publishedAt).getFullYear().toString() === stateArticles.selectedYear;
+
+        return matchCategory && matchType && matchYear;
+    });
+}
+
+//
+function renderFilteredVisibleArticles() {
+    const filteredArticles = filterArticles();
+    const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
+
+    renderArticles(visibleArticles);
+}
+
+
+//filter by chips controlls - "All releases", "Regulatory", "Non Regulatory"
+chipsControlsContainer.addEventListener('click', (event) => {
+    
+    const clickedChip = event.target.closest('[data-category]');
+    if (!clickedChip) return; 
+
+      chipsControls.forEach((chip) => {
+        chip.classList.remove('active');
+    });
+
+    clickedChip.classList.add('active');
+
+    stateArticles.selectedCategoryChip = clickedChip.dataset.category;
+    stateArticles.visibleCount = 9;
+
+    renderFilteredVisibleArticles();
+});
+
+
+//filter by type (in select)
 function filterByTypeOptions() {
     const allTypes = stateArticles.allArticles.map((article) => article.type);
     const uniqueTypes = [...new Set(allTypes)]; //set - tylko unikalne wartosci
@@ -124,7 +157,8 @@ selectFilterByType.addEventListener('change', (event) => {
     renderFilteredVisibleArticles();
 });
 
-//Year filter in select
+
+//filter by year (in select)
 function filterByYearOptions() {
     const allYears = stateArticles.allArticles.map((article) => {
         return new Date(article.publishedAt).getFullYear(); // .getFullYear pobiera cały rok
@@ -149,53 +183,22 @@ selectFilterByYear.addEventListener('change', (event) => {
 });
 
 
-
-// return articles if they match to chosen filters
-function filterArticles() {
-    return stateArticles.allArticles.filter((item) => {
-
-        const matchCategory =  stateArticles.selectedCategoryChip === 'all' || item.category === stateArticles.selectedCategoryChip;
-
-        const matchType = stateArticles.selectedType === 'all' || item.type === stateArticles.selectedType;
-
-        const matchYear = stateArticles.selectedYear === 'all' || new Date(item.publishedAt).getFullYear().toString() === stateArticles.selectedYear;
-
-        return matchCategory && matchType && matchYear;
-    });
-}
-
-
-function renderFilteredVisibleArticles() {
-    const filteredArticles = filterArticles();
-    const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
-
-    renderArticles(visibleArticles);
-}
-
-
-//Load more articles btn
+//"load more" articles (btn)
 function handleLoadMore() {
     stateArticles.visibleCount += 6;
     renderFilteredVisibleArticles();
 }
-
 loadMoreBtn.addEventListener('click', handleLoadMore);
 
 
-//Filter by chips controlls 1
-chipsControlsContainer.addEventListener('click', (event) => {
-    
-    const clickedChip = event.target.closest('[data-category]');
-    if (!clickedChip) return; 
+//init function - starting
+async function initRendering() {
+    const articles = await fetchArticles();
+    stateArticles.allArticles = articles;
 
-      chipsControls.forEach((chip) => {
-        chip.classList.remove('active');
-    });
-
-    clickedChip.classList.add('active');
-
-    stateArticles.selectedCategoryChip = clickedChip.dataset.category;
-    stateArticles.visibleCount = 9;
+    filterByTypeOptions();
+    filterByYearOptions();
 
     renderFilteredVisibleArticles();
-});
+}
+initRendering();

@@ -113,7 +113,6 @@ h2 {
   padding: 1rem;
   margin-bottom: 1.6rem;
   break-inside: avoid;
-  /* display: inline-block; */
   width: 100%;
   display: grid;
   gap: 0.8rem;
@@ -132,12 +131,6 @@ h2 {
   display: block;
   color: var(--colorBlue);
   font-weight: bold;
-}
-
-.title_article {
-}
-
-.excerpt_text {
 }
 
 .read_more_btn {
@@ -185,4 +178,68 @@ h2 {
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 20px;
+}
+
+
+/*Media queries*/
+/*Tablet*/
+@media (max-width: 768px) {
+  .chips_controls .chip {
+    margin-top: 1rem;;
+  }
+
+    .filter_selects {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+  .wrapper{
+    padding: 2rem 0;
+  }
+
+  h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;;
+  }
+
+  .chips_controls .chip {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+  }
+
+  .filter_selects select {
+    width: 15rem;
+    height: 3rem;
+
+  }
+
+  .filter_selects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .articles {
+    columns: 2;
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+
+}
+
+/*Mobile S*/
+@media (max-width: 425px) {
+
+  .articles {
+    columns: 1;
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+
 }
