@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="./source/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>News Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="wrapper">
+        <h1>News</h1>
+
+        <div class="filters">
+
+            <div class="chips_controls" id="chips_controls">
+                <button class="chip" data-category="all">All releases</button>
+                <button class="chip" data-category="regulatory">Regulatory</button>
+                <button class="chip" data-category="non_regulatory">Non Regulatory</button>
+            </div>
+
+            <div class="filter_selects">
+                <select id="filter_by_type">
+                    <option value="all">Filter by type</option>
+                </select>
+                <select id="filter_by_year">
+                    <option value="all">Filter by year</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="articles_container">
+            <section class="articles" id="articles_container"></section>
+            <button class="load_more" id="load_more_btn">Load more</button>
+        </div>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
