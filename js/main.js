@@ -127,6 +127,12 @@ function renderFilteredVisibleArticles() {
     const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
 
     renderArticles(visibleArticles);
+
+    if (stateArticles.visibleCount >= filteredArticles.length) { //hide the "load more" btn
+        loadMoreBtn.style.display = 'none';
+    } else {
+        loadMoreBtn.style.display = 'block';
+    }
 }
 
 
