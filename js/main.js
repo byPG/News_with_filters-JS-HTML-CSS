@@ -39,6 +39,21 @@ async function fetchArticles() {
     }
 }
 
+//function for formating date
+function formatDate(dateString) {
+    const date = new Date(dateString);
+
+    return date.toLocaleString('en-GB', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    }).replace(',', '');
+}
+
+
+
 
 //creating singular card for an article 
 function articleSingularCard (article) {
@@ -54,7 +69,7 @@ function articleSingularCard (article) {
         cardArticle.appendChild(imgArticle); }
         
         const dateArticle = document.createElement('span');
-        dateArticle.textContent = article.publishedAt || 'No date';
+        dateArticle.textContent = formatDate(article.publishedAt) || 'No date';
         dateArticle.classList.add('article_date');
 
         const title = document.createElement('h2');
