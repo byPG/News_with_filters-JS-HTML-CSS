@@ -329,7 +329,7 @@
     "imageUrl": "",
     "url": "#"
   },
-     {
+    {
     "id": 33,
     "title": "Velit esse cillum dolore",
     "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
@@ -346,7 +346,6 @@
     "publishedAt": "2026-05-22T17:30:00",
     "type": "Financial report",
     "imageUrl": "/source/office-2.jpg",
-    "imageUrl": "",
     "url": "#"
   }
 ]

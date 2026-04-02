@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="./source/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>News Task</title>
+    <meta name="description" content="Recruitment task">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +16,6 @@
 
     <main class="wrapper">
         <h1>News</h1>
-
         <div class="filters">
 
             <div class="chips_controls" id="chips_controls">
@@ -31,10 +32,12 @@
                     <option value="all">Filter by year</option>
                 </select>
             </div>
+            
         </div>
 
-        <div class="articles_container">
+        <div class="articles_box">
             <section class="articles" id="articles_container"></section>
+            <p class="empty_state hidden" id="empty_state">No results</p>
             <button class="load_more" id="load_more_btn">Load more</button>
         </div>
 

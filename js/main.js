@@ -3,9 +3,11 @@
 const selectFilterByType = document.getElementById('filter_by_type');
 const selectFilterByYear= document.getElementById('filter_by_year');
 const articlesContainer = document.getElementById('articles_container');
+const articlesBox = document.querySelector('.articles_box');
 const loadMoreBtn = document.getElementById('load_more_btn');
-const chipsControlsContainer = document.getElementById('chips_controls')
+const chipsControlsContainer = document.getElementById('chips_controls');
 const chipsControls = document.querySelectorAll('.chip');
+const emptyStateHandle = document.getElementById('empty_state');
 
 
 //object for state of articles;
@@ -51,8 +53,6 @@ function formatDate(dateString) {
         minute: '2-digit'
     }).replace(',', '');
 }
-
-
 
 
 //creating singular card for an article 
@@ -109,6 +109,7 @@ function renderArticles(articles) {
     });
 }
 
+
 // return articles if they match to chosen filters
 function filterArticles() {
     return stateArticles.allArticles.filter((item) => {
@@ -121,17 +122,31 @@ function filterArticles() {
     });
 }
 
+
 // render after filters
 function renderFilteredVisibleArticles() {
     const filteredArticles = filterArticles();
     const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
 
+        if (filteredArticles.length === 0) {
+        articlesContainer.innerHTML = '';
+        emptyStateHandle.classList.remove('hidden');
+        loadMoreBtn.style.display = 'none';
+
+        articlesBox.classList.remove('show_gradient');
+        return;
+        }
+
+    emptyStateHandle.classList.add('hidden');
     renderArticles(visibleArticles);
+
 
     if (stateArticles.visibleCount >= filteredArticles.length) { //hide the "load more" btn
         loadMoreBtn.style.display = 'none';
+        articlesBox.classList.remove('show_gradient');
     } else {
         loadMoreBtn.style.display = 'block';
+        articlesBox.classList.add('show_gradient');
     }
 }
 
