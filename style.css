@@ -180,43 +180,48 @@ h2 {
   border-radius: 20px;
 }
 
-
 /*Media queries*/
 /*Tablet*/
 @media (max-width: 768px) {
   .chips_controls .chip {
-    margin-top: 1rem;;
+    margin-top: 1rem;
   }
 
-    .filter_selects {
-      flex-direction: column;
-      align-items: flex-end;
-    }
+  .filter_selects {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
 
+/* between tablet and mobile */
+@media (max-width: 570px) {
+  .articles {
+    columns: 2;
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
 }
 
 /*Mobile*/
 @media (max-width: 425px) {
-
-  .wrapper{
+  .wrapper {
     padding: 2rem 0;
   }
 
-  h1{
+  h1 {
     font-size: 3rem;
-    margin-bottom: 3rem;;
+    margin-bottom: 3rem;
   }
 
   .chips_controls .chip {
     margin-top: 1rem;
     font-size: 1rem;
-    padding: .8rem 1.2rem;
+    padding: 0.8rem 1.2rem;
   }
 
   .filter_selects select {
     width: 15rem;
     height: 3rem;
-
   }
 
   .filter_selects {
@@ -226,20 +231,8 @@ h2 {
   }
 
   .articles {
-    columns: 2;
-    column-gap: 2rem;
-    margin-top: 2rem;
-  }
-
-}
-
-/*Mobile S*/
-@media (max-width: 425px) {
-
-  .articles {
     columns: 1;
     column-gap: 2rem;
     margin-top: 2rem;
   }
-
 }

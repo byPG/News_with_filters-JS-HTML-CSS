@@ -8,7 +8,7 @@ const chipsControlsContainer = document.getElementById('chips_controls')
 const chipsControls = document.querySelectorAll('.chip');
 
 
-//object for state of articles
+//object for state of articles;
 const stateArticles = { 
     allArticles: [],
     selectedCategoryChip: 'all',
@@ -42,6 +42,7 @@ async function fetchArticles() {
 
 //creating singular card for an article 
 function articleSingularCard (article) {
+
         const cardArticle = document.createElement('article');
         cardArticle.classList.add('article_card');
 
@@ -83,9 +84,9 @@ function articleSingularCard (article) {
 }
 
 
-//rendering articles in UI
+//rendering card in UI
 function renderArticles(articles) {
-    articlesContainer.innerHTML = '';
+    articlesContainer.innerHTML = ''; //delete old card before rendering
 
     articles.forEach(article => {
         const articleCard = articleSingularCard(article); //ccreate each card with article from source (array of articles)
@@ -97,17 +98,15 @@ function renderArticles(articles) {
 function filterArticles() {
     return stateArticles.allArticles.filter((item) => {
 
-        const matchCategory =  stateArticles.selectedCategoryChip === 'all' || item.category === stateArticles.selectedCategoryChip;
-
+        const matchCategory =  stateArticles.selectedCategoryChip === 'all' || item.category === stateArticles.selectedCategoryChip; // true lub false
         const matchType = stateArticles.selectedType === 'all' || item.type === stateArticles.selectedType;
+        const matchYear = stateArticles.selectedYear === 'all' || new Date(item.publishedAt).getFullYear().toString() === stateArticles.selectedYear; //create date and change to string
 
-        const matchYear = stateArticles.selectedYear === 'all' || new Date(item.publishedAt).getFullYear().toString() === stateArticles.selectedYear;
-
-        return matchCategory && matchType && matchYear;
+        return matchCategory && matchType && matchYear; // if everything matches = true
     });
 }
 
-//
+// render after filters
 function renderFilteredVisibleArticles() {
     const filteredArticles = filterArticles();
     const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
@@ -119,25 +118,25 @@ function renderFilteredVisibleArticles() {
 //filter by chips controlls - "All releases", "Regulatory", "Non Regulatory"
 chipsControlsContainer.addEventListener('click', (event) => {
     
-    const clickedChip = event.target.closest('[data-category]');
+    const clickedChip = event.target.closest('[data-category]'); //event delegation mechanism
     if (!clickedChip) return; 
 
       chipsControls.forEach((chip) => {
         chip.classList.remove('active');
     });
 
-    clickedChip.classList.add('active');
+    clickedChip.classList.add('active'); //adding active class to the selected chip
 
     stateArticles.selectedCategoryChip = clickedChip.dataset.category;
     stateArticles.visibleCount = 9;
 
-    renderFilteredVisibleArticles();
+    renderFilteredVisibleArticles(); //take current data (after changing them) from that function
 });
 
 
-//filter by type (in select)
+//filter by type (in select) - create options in dropdown
 function filterByTypeOptions() {
-    const allTypes = stateArticles.allArticles.map((article) => article.type);
+    const allTypes = stateArticles.allArticles.map((article) => article.type); //derive all types fro articles
     const uniqueTypes = [...new Set(allTypes)]; //set - tylko unikalne wartosci
 
     //creating options in select tag    
@@ -149,7 +148,7 @@ function filterByTypeOptions() {
         selectFilterByType.appendChild(option);
     });
 }
-
+//filtering
 selectFilterByType.addEventListener('change', (event) => {
     stateArticles.selectedType = event.target.value;
     stateArticles.visibleCount = 9;
@@ -158,13 +157,13 @@ selectFilterByType.addEventListener('change', (event) => {
 });
 
 
-//filter by year (in select)
+//filter by year (in select) - create options in dropdown
 function filterByYearOptions() {
     const allYears = stateArticles.allArticles.map((article) => {
-        return new Date(article.publishedAt).getFullYear(); // .getFullYear pobiera cały rok
+       return new Date(article.publishedAt).getFullYear();// .getFullYear tylko cały rok
     });
 
-    const uniqueYears = [...new Set(allYears)].sort((a, b) => b - a); //spread do nowej tablic, set - usuwamy duplikaty, sort - sortujemy malejąco
+    const uniqueYears = [...new Set(allYears)].sort((a, b) => a + b); //spread do nowej tablic, set - usuwamy duplikaty, sort - sortujemy malejąco
 
     uniqueYears.forEach((year) => {
         const option = document.createElement('option');
@@ -175,6 +174,7 @@ function filterByYearOptions() {
     });
 }
 
+//filtering
 selectFilterByYear.addEventListener('change', (event) => {
     stateArticles.selectedYear = event.target.value;
     stateArticles.visibleCount = 9;
@@ -183,7 +183,7 @@ selectFilterByYear.addEventListener('change', (event) => {
 });
 
 
-//"load more" articles (btn)
+//"load more" articles (btn) -- operates on the already filtered list
 function handleLoadMore() {
     stateArticles.visibleCount += 6;
     renderFilteredVisibleArticles();
@@ -191,7 +191,7 @@ function handleLoadMore() {
 loadMoreBtn.addEventListener('click', handleLoadMore);
 
 
-//init function - starting
+//init function - start application
 async function initRendering() {
     const articles = await fetchArticles();
     stateArticles.allArticles = articles;
