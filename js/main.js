@@ -125,6 +125,8 @@ function filterArticles() {
 
 // render after filters
 function renderFilteredVisibleArticles() {
+const CLASS_GRADIENT = 'show_gradient';
+
     const filteredArticles = filterArticles();
     const visibleArticles = filteredArticles.slice(0, stateArticles.visibleCount);
 
@@ -133,7 +135,7 @@ function renderFilteredVisibleArticles() {
         emptyStateHandle.classList.remove('hidden');
         loadMoreBtn.style.display = 'none';
 
-        articlesBox.classList.remove('show_gradient');
+        articlesBox.classList.remove(CLASS_GRADIENT);
         return;
         }
 
@@ -143,10 +145,10 @@ function renderFilteredVisibleArticles() {
 
     if (stateArticles.visibleCount >= filteredArticles.length) { //hide the "load more" btn
         loadMoreBtn.style.display = 'none';
-        articlesBox.classList.remove('show_gradient');
+        articlesBox.classList.remove(CLASS_GRADIENT);
     } else {
         loadMoreBtn.style.display = 'block';
-        articlesBox.classList.add('show_gradient');
+        articlesBox.classList.add(CLASS_GRADIENT);
     }
 }
 
