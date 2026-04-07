@@ -175,7 +175,7 @@ chipsControlsContainer.addEventListener('click', (event) => {
 //filter by type (in select) - create options in dropdown
 function filterByTypeOptions() {
     const allTypes = stateArticles.allArticles.map((article) => article.type); //derive all types fro articles
-    const uniqueTypes = [...new Set(allTypes)]; //set - tylko unikalne wartosci
+    const uniqueTypes = [...new Set(allTypes)]; //set - leave only unique values
 
     //creating options in select tag    
     uniqueTypes.forEach((type) => {

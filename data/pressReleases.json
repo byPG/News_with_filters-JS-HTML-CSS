@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Lorem ipsum dolor sit amet",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "New compliance priorities for the coming year",
+    "excerpt": "The report outlines key compliance priorities for the year ahead, including governance updates, reporting expectations, and oversight measures across core operations.",
     "publishedAt": "2026-03-10T09:30:00",
     "category": "regulatory",
     "type": "Report",
@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "title": "Consectetur adipiscing elit",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Company expands its regional partnership network",
+    "excerpt": "The company announced an expanded regional partnership program designed to improve service delivery, strengthen client support, and accelerate market development.",
     "publishedAt": "2026-02-18T14:15:00",
     "category": "non_regulatory",
     "type": "Press release",
@@ -21,8 +21,8 @@
   },
   {
     "id": 3,
-    "title": "Sed do eiusmod tempor",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    "title": "Quarterly results reflect steady operating growth",
+    "excerpt": "The financial update highlights stable revenue growth, disciplined cost management, and continued investment in technology, infrastructure, and client services.",
     "publishedAt": "2025-12-01T08:00:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -31,8 +31,8 @@
   },
   {
     "id": 4,
-    "title": "Incididunt ut labore et dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "New office initiative supports hybrid teams",
+    "excerpt": "The initiative introduces updated workplace policies, redesigned collaboration areas, and practical tools intended to improve flexibility, productivity, and employee experience.",
     "publishedAt": "2025-11-21T11:45:00",
     "category": "non_regulatory",
     "type": "Press release",
@@ -41,8 +41,8 @@
   },
   {
     "id": 5,
-    "title": "Ut enim ad minim veniam",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "title": "Board review covers risk and control updates",
+    "excerpt": "The latest report summarizes progress in risk oversight, internal controls, and policy execution, with additional focus on accountability and operational resilience.",
     "publishedAt": "2025-10-05T16:20:00",
     "category": "regulatory",
     "type": "Report",
@@ -51,8 +51,8 @@
   },
   {
     "id": 6,
-    "title": "Quis nostrud exercitation ullamco",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Investor presentation highlights strategic roadmap",
+    "excerpt": "The presentation provides an overview of strategic goals, growth drivers, and execution milestones, with examples drawn from recent performance and market activity.",
     "publishedAt": "2026-08-13T10:10:00",
     "category": "non_regulatory",
     "type": "Presentation",
@@ -61,8 +61,8 @@
   },
   {
     "id": 7,
-    "title": "Laboris nisi ut aliquip",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+    "title": "Half-year figures show stronger cash position",
+    "excerpt": "The financial report points to improved cash generation, balanced spending, and encouraging momentum across major business lines during the first half.",
     "publishedAt": "2025-06-30T12:00:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -71,8 +71,8 @@
   },
   {
     "id": 8,
-    "title": "Ex ea commodo consequat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Leadership team shares product launch plans",
+    "excerpt": "Management outlined launch plans for upcoming offerings, with emphasis on customer adoption, operational readiness, and measured expansion into priority segments.",
     "publishedAt": "2025-05-17T09:05:00",
     "category": "non_regulatory",
     "type": "Press release",
@@ -81,8 +81,8 @@
   },
   {
     "id": 9,
-    "title": "Duis aute irure dolor",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
+    "title": "Annual review details policy implementation progress",
+    "excerpt": "The review summarizes policy implementation across departments, covering reporting standards, supervisory actions, and process improvements introduced during the year.",
     "publishedAt": "2024-12-11T13:40:00",
     "category": "regulatory",
     "type": "Report",
@@ -91,8 +91,8 @@
   },
   {
     "id": 10,
-    "title": "In reprehenderit in voluptate",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Operational update presented to external stakeholders",
+    "excerpt": "The presentation summarizes recent business developments, execution priorities, and selected performance indicators relevant to partners, investors, and industry observers.",
     "publishedAt": "2025-10-03T15:25:00",
     "category": "non_regulatory",
     "type": "Presentation",
@@ -101,8 +101,8 @@
   },
   {
     "id": 11,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Revenue trends remain stable across key segments",
+    "excerpt": "The financial report reviews segment revenue, margin development, and capital allocation, while noting broader market conditions and evolving customer demand.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -111,18 +111,18 @@
   },
   {
     "id": 12,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Company announces updates to public communications",
+    "excerpt": "The company introduced a refreshed communications approach intended to improve transparency, clarify messaging, and provide more timely updates to stakeholders.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "non_regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 13,
-    "title": "In reprehenderit in voluptate",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Management presentation outlines next phase priorities",
+    "excerpt": "The presentation explains business priorities for the next phase, including delivery milestones, capability building, and focus areas for long-term growth.",
     "publishedAt": "2024-10-03T15:25:00",
     "category": "non_regulatory",
     "type": "Presentation",
@@ -131,8 +131,8 @@
   },
   {
     "id": 14,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Performance summary points to resilient demand",
+    "excerpt": "The financial report highlights resilient demand, consistent execution, and a measured approach to investment despite mixed conditions across external markets.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -141,18 +141,18 @@
   },
   {
     "id": 15,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Press statement confirms service enhancement plan",
+    "excerpt": "The press statement confirms a phased enhancement plan focused on service quality, internal coordination, and stronger support for existing clients.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "non_regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-    {
+  {
     "id": 16,
-    "title": "In reprehenderit in voluptate",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Corporate presentation reviews market positioning",
+    "excerpt": "The presentation reviews market positioning, competitive context, and upcoming initiatives intended to reinforce brand strength and customer confidence.",
     "publishedAt": "2024-10-03T15:25:00",
     "category": "non_regulatory",
     "type": "Presentation",
@@ -161,8 +161,8 @@
   },
   {
     "id": 17,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Financial update notes gains in operating efficiency",
+    "excerpt": "The financial report notes gains in operating efficiency, lower overhead pressure, and continued attention to liquidity, planning, and execution discipline.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -171,18 +171,18 @@
   },
   {
     "id": 18,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Business release introduces customer support changes",
+    "excerpt": "The release introduces customer support changes designed to reduce response times, simplify service access, and improve communication throughout key journeys.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "non_regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 19,
-    "title": "In reprehenderit in voluptate",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Strategy deck presents execution milestones ahead",
+    "excerpt": "The presentation sets out execution milestones for the months ahead, with specific attention to delivery quality, governance, and coordinated team activity.",
     "publishedAt": "2024-10-03T15:25:00",
     "category": "non_regulatory",
     "type": "Presentation",
@@ -191,8 +191,8 @@
   },
   {
     "id": 20,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Latest financial filing covers margin development",
+    "excerpt": "The filing covers margin development, expense trends, and the broader financial position, while also addressing assumptions used in forward planning.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -201,18 +201,18 @@
   },
   {
     "id": 21,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Official notice describes reporting framework changes",
+    "excerpt": "The notice describes changes to the reporting framework, including documentation standards, submission timing, and internal review responsibilities.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 22,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Financial overview highlights disciplined execution",
+    "excerpt": "The financial overview highlights disciplined execution, balanced resource allocation, and continued focus on areas with the strongest long-term potential.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -221,18 +221,18 @@
   },
   {
     "id": 23,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Regulatory statement confirms process improvements",
+    "excerpt": "The statement confirms a series of process improvements aimed at strengthening oversight, reducing delays, and improving reporting consistency across teams.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 24,
-    "title": "In reprehenderit in voluptate",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Presentation materials cover governance priorities",
+    "excerpt": "The presentation materials cover governance priorities, leadership accountability, and implementation goals connected to current transformation workstreams.",
     "publishedAt": "2024-10-03T15:25:00",
     "category": "regulatory",
     "type": "Presentation",
@@ -241,8 +241,8 @@
   },
   {
     "id": 25,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Quarterly financial report underscores stability",
+    "excerpt": "The quarterly financial report underscores operating stability, prudent forecasting, and a steady approach to investment under changing market conditions.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -251,18 +251,18 @@
   },
   {
     "id": 26,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Public update announces expanded policy rollout",
+    "excerpt": "The public update announces an expanded rollout of policy changes, supported by training measures, communication guidance, and revised internal procedures.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 25,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Interim results reflect consistent core performance",
+    "excerpt": "The interim results reflect consistent core performance, effective cost controls, and continued progress against key financial and operational objectives.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -271,18 +271,18 @@
   },
   {
     "id": 27,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Corporate release details oversight enhancements",
+    "excerpt": "The corporate release details oversight enhancements, updated reporting lines, and governance measures intended to support clearer decision-making.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-   {
+  {
     "id": 28,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Financial summary reports stable business momentum",
+    "excerpt": "The financial summary reports stable business momentum, measured investment activity, and a continued focus on earnings quality and process discipline.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "regulatory",
     "type": "Financial report",
@@ -291,28 +291,28 @@
   },
   {
     "id": 29,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Presentation release shares updated growth outlook",
+    "excerpt": "The presentation release shares an updated growth outlook, supported by current demand indicators, delivery plans, and near-term commercial priorities.",
     "publishedAt": "2024-05-22T17:30:00",
     "category": "Presentation",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-    {
+  {
     "id": 30,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Formal announcement addresses reporting obligations",
+    "excerpt": "The formal announcement addresses reporting obligations, disclosure timing, and supporting controls required under the latest internal review cycle.",
     "publishedAt": "2026-05-22T17:30:00",
     "category": "regulatory",
     "type": "Press release",
     "imageUrl": "/source/office-work.jpg",
     "url": "#"
   },
-   {
+  {
     "id": 31,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Financial performance presentation released publicly",
+    "excerpt": "The financial performance presentation reviews revenue drivers, recent efficiency gains, and management priorities for the remainder of the year.",
     "publishedAt": "2024-07-19T08:50:00",
     "category": "non_regulatory",
     "type": "Financial report",
@@ -321,18 +321,18 @@
   },
   {
     "id": 32,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "New presentation supports stakeholder briefings",
+    "excerpt": "The presentation was prepared to support stakeholder briefings, summarizing key developments, strategic direction, and selected performance updates.",
     "publishedAt": "2026-05-22T17:30:00",
     "category": "Presentation",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
-    {
+  {
     "id": 33,
-    "title": "Velit esse cillum dolore",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollit anim id est laborum sed ut perspiciatis unde omnis iste natus error.",
+    "title": "Recent report highlights strong balance sheet trends",
+    "excerpt": "The recent report highlights strong balance sheet trends, careful expense management, and encouraging progress in several high-priority business areas.",
     "publishedAt": "2026-07-19T08:50:00",
     "category": "non_regulatory",
     "type": "Financial report",
@@ -341,12 +341,11 @@
   },
   {
     "id": 34,
-    "title": "Excepteur sint occaecat cupidatat",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Detailed filing reviews year-to-date performance",
+    "excerpt": "The detailed filing reviews year-to-date performance, capital position, and execution against targets, with commentary on current operating conditions.",
     "publishedAt": "2026-05-22T17:30:00",
     "type": "Financial report",
     "imageUrl": "/source/office-2.jpg",
     "url": "#"
   }
 ]
-
