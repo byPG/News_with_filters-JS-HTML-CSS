@@ -198,10 +198,10 @@ selectFilterByType.addEventListener('change', (event) => {
 //filter by year (in select) - create options in dropdown
 function filterByYearOptions() {
     const allYears = stateArticles.allArticles.map((article) => {
-       return new Date(article.publishedAt).getFullYear();// .getFullYear tylko cały rok
+       return new Date(article.publishedAt).getFullYear();
     });
 
-    const uniqueYears = [...new Set(allYears)].sort((a, b) => a + b); //spread do nowej tablic, set - usuwamy duplikaty, sort - sortujemy malejąco
+    const uniqueYears = [...new Set(allYears)].sort((a, b) => a + b);
 
     uniqueYears.forEach((year) => {
         const option = document.createElement('option');
