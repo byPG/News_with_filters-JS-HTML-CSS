@@ -260,7 +260,7 @@
     "url": "#"
   },
   {
-    "id": 25,
+    "id": 27,
     "title": "Interim results reflect consistent core performance",
     "excerpt": "The interim results reflect consistent core performance, effective cost controls, and continued progress against key financial and operational objectives.",
     "publishedAt": "2024-07-19T08:50:00",
@@ -270,7 +270,7 @@
     "url": "#"
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "Corporate release details oversight enhancements",
     "excerpt": "The corporate release details oversight enhancements, updated reporting lines, and governance measures intended to support clearer decision-making.",
     "publishedAt": "2024-05-22T17:30:00",
@@ -280,7 +280,7 @@
     "url": "#"
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "Financial summary reports stable business momentum",
     "excerpt": "The financial summary reports stable business momentum, measured investment activity, and a continued focus on earnings quality and process discipline.",
     "publishedAt": "2024-07-19T08:50:00",
@@ -290,17 +290,17 @@
     "url": "#"
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "Presentation release shares updated growth outlook",
     "excerpt": "The presentation release shares an updated growth outlook, supported by current demand indicators, delivery plans, and near-term commercial priorities.",
     "publishedAt": "2024-05-22T17:30:00",
-    "category": "Presentation",
+    "category": "non_regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
   {
-    "id": 30,
+    "id": 31,
     "title": "Formal announcement addresses reporting obligations",
     "excerpt": "The formal announcement addresses reporting obligations, disclosure timing, and supporting controls required under the latest internal review cycle.",
     "publishedAt": "2026-05-22T17:30:00",
@@ -310,7 +310,7 @@
     "url": "#"
   },
   {
-    "id": 31,
+    "id": 32,
     "title": "Financial performance presentation released publicly",
     "excerpt": "The financial performance presentation reviews revenue drivers, recent efficiency gains, and management priorities for the remainder of the year.",
     "publishedAt": "2024-07-19T08:50:00",
@@ -320,17 +320,17 @@
     "url": "#"
   },
   {
-    "id": 32,
+    "id": 33,
     "title": "New presentation supports stakeholder briefings",
     "excerpt": "The presentation was prepared to support stakeholder briefings, summarizing key developments, strategic direction, and selected performance updates.",
     "publishedAt": "2026-05-22T17:30:00",
-    "category": "Presentation",
+    "category": "regulatory",
     "type": "Press release",
     "imageUrl": "",
     "url": "#"
   },
   {
-    "id": 33,
+    "id": 34,
     "title": "Recent report highlights strong balance sheet trends",
     "excerpt": "The recent report highlights strong balance sheet trends, careful expense management, and encouraging progress in several high-priority business areas.",
     "publishedAt": "2026-07-19T08:50:00",
@@ -340,7 +340,7 @@
     "url": "#"
   },
   {
-    "id": 34,
+    "id": 35,
     "title": "Detailed filing reviews year-to-date performance",
     "excerpt": "The detailed filing reviews year-to-date performance, capital position, and execution against targets, with commentary on current operating conditions.",
     "publishedAt": "2026-05-22T17:30:00",

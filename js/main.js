@@ -201,7 +201,7 @@ function filterByYearOptions() {
        return new Date(article.publishedAt).getFullYear();
     });
 
-    const uniqueYears = [...new Set(allYears)].sort((a, b) => a + b);
+    const uniqueYears = [...new Set(allYears)].sort((a, b) => a - b);
 
     uniqueYears.forEach((year) => {
         const option = document.createElement('option');
